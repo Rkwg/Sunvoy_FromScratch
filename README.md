@@ -69,7 +69,7 @@ This will open the project in your local browser.
 
 Need a visual walkthrough? Watch this Loom video for a demonstration:
 
-👉 [Click to Watch](https://www.loom.com/share/96a4b287520043d682af0d8042e62821)
+[Click to Watch](https://www.loom.com/share/96a4b287520043d682af0d8042e62821)
 
 ---
 
