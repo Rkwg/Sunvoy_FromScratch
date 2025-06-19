@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  
+<div class="user-section">
+  <h1 class="title">User List</h1>
+
+  <div id="user-list" class="user-grid"></div>
+
+  <button id="setting-button">Setting</button>
+
+  <script>
+    document.getElementById('setting-button').addEventListener('click', () => {
+      window.location.href = '/info';
+    });
+  </script>
+</div>
+
+  <script>
+    fetch('/users')
+      .then((res) => res.json())
+      .then((data) => {
+        const container = document.getElementById('user-list');
+        data.forEach(user => {
+          const card = document.createElement('div');
+          card.className = 'user-card';
+          card.innerHTML = `
+            <strong>${user.firstName}${user.lastName}</strong><br/>
+            ${user.email}<br/>
+            <small>ID: ${user.id}</small>
+          `;
+          container.appendChild(card);
+        });
+      });
+
+    document.getElementById('logout-btn').onclick = () => {
+      window.location.href = '/';
+    };
+  </script>
+</body>
+</html>

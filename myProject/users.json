@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "email": "user1@example.com",
+      "password": "test1",
+      "firstName": "User1",
+      "lastName": "Last1",
+      "id": "a2e47ca6-6b56-463c-9207-31e688c22e1d"
+    },
+    {
+      "email": "user2@example.com",
+      "password": "test2",
+      "firstName": "User2",
+      "lastName": "Last2",
+      "id": "07d72632-7615-4c8b-bd44-80840df4e7ac"
+    },
+    {
+      "email": "user3@example.com",
+      "password": "test3",
+      "firstName": "User3",
+      "lastName": "Last3",
+      "id": "185dff45-52fb-4798-8329-5ff1b03996f0"
+    },
+    {
+      "email": "user4@example.com",
+      "password": "test4",
+      "firstName": "User4",
+      "lastName": "Last4",
+      "id": "ef4bd4cb-62f9-4a77-9178-f4b5be347c9c"
+    },
+    {
+      "email": "user5@example.com",
+      "password": "test5",
+      "firstName": "User5",
+      "lastName": "Last5",
+      "id": "e7103d66-5410-41a4-ac2c-e677b37f7898"
+    },
+    {
+      "email": "user6@example.com",
+      "password": "test6",
+      "firstName": "User6",
+      "lastName": "Last6",
+      "id": "93540fbc-a7c0-4e50-87ac-70f68e20b1ae"
+    },
+    {
+      "email": "user7@example.com",
+      "password": "test7",
+      "firstName": "User7",
+      "lastName": "Last7",
+      "id": "7aff321e-236f-42e2-9ef6-94c51cbee278"
+    },
+    {
+      "email": "user8@example.com",
+      "password": "test8",
+      "firstName": "User8",
+      "lastName": "Last8",
+      "id": "1b6bee14-f618-4a99-8ffa-eeb192466570"
+    },
+    {
+      "email": "user9@example.com",
+      "password": "test9",
+      "firstName": "User9",
+      "lastName": "Last9",
+      "id": "bde16ec6-8ace-4303-8ae0-ad223b7266c"
+    }
+  ]
+}
